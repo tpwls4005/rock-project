@@ -1,6 +1,10 @@
 .box{
   border: 1px solid black;
   width: 500px;
+  border: 1px solid black;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
 }
 
 .item-img{
@@ -10,4 +14,29 @@
 .main{
   display: flex;
   justify-content: center;
+}
+
+
+.box.win {
+  background-color: blue;
+}
+
+.box.win:hover {
+  background-color: lightblue;
+}
+
+.box.lose {
+  background-color: red;
+}
+
+.box.lose:hover {
+  background-color: lightcoral;
+}
+
+.box.tie {
+  background-color: yellow;
+}
+
+.box.tie:hover {
+  background-color: lightyellow;
 }
